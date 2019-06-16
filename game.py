@@ -17,8 +17,8 @@ class Game:
         return False
         
     def action(self, p, a):
-        if(self.board[a / 3][a % 3] == 0):
-            self.board[a / 3][a % 3] = p
+        if(self.board[int(a / 3)][a % 3] == 0):
+            self.board[int(a / 3)][a % 3] = p
         return self.board
 
     def opposite(self, p):
