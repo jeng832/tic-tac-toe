@@ -14,3 +14,9 @@
 - Q-learning algorithm
 ### training.py
 - Training the AI by Reinforcement Learning
+
+## How to Learn
+- blah blah
+
+## How to Play
+- blah blah
