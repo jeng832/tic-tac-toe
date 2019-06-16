@@ -30,4 +30,10 @@
 >$ python3 training.py
 >```
 ## How to Play
-- blah blah
+1. Learning the AI
+2. Execute play.py
+>```bash
+>$ python3 play.py
+>```
+3. Select 1st player or 2nd player
+4. Enjoy the game :)

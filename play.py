@@ -20,7 +20,7 @@ def human_play(h,g):
     while True:
         g.print_board()
         print("Select grid (0~8)?")
-        grid = input()
+        grid = int(input())
         g.action(h, grid)
         h_after_board = copy_matrix(game.get_board(), 3)
         if(np.array_equal(h_before_board, h_after_board) != True):
@@ -42,7 +42,7 @@ game = Game()
 game.reset()
 
 print("player 1 or 2?")
-human = input()
+human = int(input())
 com = opposite(human)
 p = Player(com, game, 0.8, 0.9)
 
