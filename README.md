@@ -16,7 +16,18 @@
 - Training the AI by Reinforcement Learning
 
 ## How to Learn
-- blah blah
-
+1. Make q-value file & state file
+```
+$ touch qv
+$ touch state
+```
+2. Change the number of the game in training.py
+```python
+for ep in range(10):   # 19 line
+```
+3. Execute  training.py
+```
+$ python3 training.py
+```
 ## How to Play
 - blah blah
